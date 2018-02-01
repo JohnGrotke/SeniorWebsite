@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <% include head.ejs %>
+</head>
+
+<body>
+    <link rel='stylesheet' href='/stylesheets/404.css' />
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="error-template">
+                    <h1>
+                        Oops!</h1>
+                    <h2>
+                        <%= error.status %> <br>
+                        <%= message %></h2>
+                    <div class="error-details">
+                       Somethings broken! Contact an administrator or get back to safety. 
+                    </div>
+                    <div class="error-actions">
+                        <a href="/" class="btn btn-lg btn-primary" >Take Me Home</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-12">
+                    <img class="img-responsive" style="display:block; margin:auto;" src="/images/404.png">
+            </div>
+        </div>
+    </div>
+
+    <% include tail.ejs %>
+</body>
+<script>
+    console.log('<%= error.status %>');
+    console.log(`<%= error.stack %>`);
+</script>
+
+</html>

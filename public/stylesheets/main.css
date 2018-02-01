@@ -1,0 +1,86 @@
+body {
+
+    /* background-color: #444444; */
+ }
+
+ /* For buttons and objects */
+ .accentColor{
+    background-color:#607D8B;
+    color:white'
+ }
+
+ .lightColor{
+     background-color: #B3E5FC;
+     color:black;
+ }
+
+ .primaryColor{
+     background-color:#03A9F4;
+     color:white;
+ }
+
+
+.darkColor{
+    background-color: #0288D1;
+    color: white;
+}
+
+.secondaryTextColor{
+    color: #757575;
+}
+
+.greyColor{
+    background-color: #444444;
+}
+
+.dividerColor{
+    background-color: #BDBDBD;
+}
+
+/* For text  */
+.accentColorText{
+    color:#607D8B;
+ }
+
+ .lightColorText{
+     color: #B3E5FC;
+ }
+
+ .primaryColorText{
+     color:#03A9F4;
+ }
+
+
+.darkColorText{
+    color: #0288D1;
+}
+
+.dividerColorText{
+    color: #BDBDBD;
+}
+
+
+.shadow-effects{
+    -webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
+}
+
+
+.card{
+    -webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
+}
+
+
+
+.page-link{
+    background-color: white !important;
+    color: #0288D1 !important;
+}
+
+.page-link.active{
+    background-color: #0288D1 !important;
+    color: white !important;
+}
