@@ -11,6 +11,7 @@
 body{
   background-image: url("/images/hobokenview.jpg");
   background-size:100%;
+  background-repeat: no-repeat;
 }
 
 button {
