@@ -2,23 +2,19 @@
 <html>
   <head>
     <% include head.ejs %>
+
       <title>John Grotke</title>
 
       <link rel="stylesheet" href="/stylesheets/main.css">
   </head>
-
+  <% include navbar.ejs %>
   <body>
-    <!-- <link rel='stylesheet' href='/stylesheets/flaty.min.css' /> -->
-    <!-- <link rel='stylesheet' href='/stylesheets/main.css' /> -->
-    <div class="container">
-      <% include navbar.ejs %>
+    <div class = "content" style="display:none; margin-top:1rem">
+
+      <h1 class="cover-heading strokeme">Projects</h1>
+
     </div>
-
-<h1>Projects page</h1>
-
-
-
-    <!-- TODO: FOOTER  -->
+  <!-- TODO: FOOTER  -->
   </body>
   <% include tail.ejs %>
   <script src='/javascripts/main.js'></script>

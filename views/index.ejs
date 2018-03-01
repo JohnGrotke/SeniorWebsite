@@ -2,24 +2,48 @@
 <html>
   <head>
     <% include head.ejs %>
+
       <title>John Grotke</title>
 
-      <link rel="stylesheet" href="/stylesheets/cover.css">
+      <link rel="stylesheet" href="/stylesheets/main.css">
   </head>
 
-  <body>
-    <!-- <link rel='stylesheet' href='/stylesheets/flaty.min.css' /> -->
-    <!-- <link rel='stylesheet' href='/stylesheets/main.css' /> -->
-    <div class="container">
-      <% include navbar.ejs %>
+  <body class="text-center bg1" style="display:none; margin-top:2rem">
+
+
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+
+      <main role="main" class="inner cover">
+        <div>
+          <div style = "margin-top: 1rem">
+            <h1 class="cover-heading strokeme">John Grotke</h1>
+            <h2 class="lead strokeme">Computer Engineer</h2>
+          </div>
+          <img style = "margin-top: 1rem" src="/images/grotke.jpeg" class="rounded-circle" alt="Cinque Terre">
+        </div>
+        <div style = "margin-top: 1rem">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-2">
+                <a href="resume" role="button" class="btn btn-outline-primary btn-block">Resume</a>
+              </div>
+              <div class="col-2">
+                <a href="projects" role="button" class="btn btn-outline-primary btn-block">Projects</a>
+              </div>
+              <div class="col-2">
+                <a href="fun" role="button" class="btn btn-outline-primary btn-block">Fun</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
     </div>
 
 
-<h1>index page</h1>
 
 
-    <!-- TODO: FOOTER  -->
+  <!-- TODO: FOOTER  -->
   </body>
   <% include tail.ejs %>
-  <script src='/javascripts/main.js'></script>
+  <script src='/javascripts/cover.js'></script>
 </html>
